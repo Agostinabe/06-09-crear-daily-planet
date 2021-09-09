@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./styles.css">
     <title>Daily Planet</title>
 </head>
+
 <body>
     <div class="suscribers">Este es un diario independiente, por favor suscribirse</div>
 
@@ -36,9 +38,12 @@
                     <figcaption>Superman posa frente a nuestra oficina</figcaption>
                 </figure>
                 <div class="newsContent">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati doloremque, harum molestias optio natus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati doloremque, harum molestias optio natus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati doloremque, harum molestias optio natus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati doloremque, harum
+                        molestias optio natus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati doloremque, harum
+                        molestias optio natus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati doloremque, harum
+                        molestias optio natus.</p>
                 </div>
             </article>
             <article>
@@ -49,17 +54,93 @@
                     <figcaption>Superman tiene pocos amigos</figcaption>
                 </figure>
                 <div class="newsContent">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati doloremque, harum molestias optio natus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati doloremque, harum molestias optio natus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati doloremque, harum
+                        molestias optio natus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati doloremque, harum
+                        molestias optio natus.</p>
                 </div>
             </article>
 
         </main>
 
-        <aside></aside>
+        <aside>
+            <article>
+                <h2>Sección Publicitaria</h2>
+                <h3>Día del niño! Especial de regalos para chicos</h3>
+                <div class="ads">
+                    <figure>
+                        <img src="./assets/Bat-signal.png" alt="bat-signal">
+                        <figcaption>Para el murcielaguito de la casa!</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/lasso.jpeg" alt="amazon">
+                        <figcaption>Sacá la amazona que hay en vos!</figcaption>
+                    </figure>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cumque voluptatem. Sunt cupiditate
+                    quasi excepturi alias vitae expedita? In enim magnam tenetur iure voluptatem odit quidem ad officia
+                    laboriosam officiis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cumque voluptatem. Sunt cupiditate
+                    quasi excepturi alias vitae expedita? In enim magnam tenetur iure voluptatem odit quidem ad officia
+                    laboriosam officiis.</p>
+            </article>
+            <figure>
+                <img src="./assets/heroes.jpg" alt="heroes">
+            </figure>
+
+        </aside>
     </div>
 
+    <div class="suscribe">
+        <h2>Suscribite para recibir todas las noticias de Metropolis</h2>
+        <form action="/" method="GET">
+            <h3>Datos de contacto:</h3>
+            <label class="userInfo">Tu nombre:
+                <input type="text" name="suscriberName" placeholder="Clark" required>
+            </label>
+            <label class="userInfo">Tu apellido:
+                <input type="text" name="suscriberLastName" placeholder="Kent" required>
+            </label>
+            <label class="userInfo">Tu nombre:
+                <input type="email" name="suscriberEmail" placeholder="notsuperman@dailyplanet" required>
+            </label>
+            <h3>Ciudad de origen:</h3>
+            <select name="city">
+                <option class="cityText" value="metropolis" selected>Metropolis</option>
+                <option class="cityText" value="smallville">Smallville</option>
+                <option class="cityText" value="gotham">Gotham</option>
+                <option class="cityText" value="centrla">Central city</option>
+                <option class="cityText" value="fawcett">Fawcett city</option>
+                <option class="cityText" value="other">Other</option>
+            </select>
 
-    <footer></footer>    
+            <h3>Tipo de suscripción deseada:</h3>
+            <label class="userType">
+                <input type="radio" name="suscriptionType" id="valor1" value="1">Basic
+            </label>
+            <label class="userType">
+                <input type="radio" name="suscriptionType" id="valor2" value="2">Advanced
+            </label>
+            <label class="userType">
+                <input type="radio" name="suscriptionType" id="valor3" value="3" checked>Premium
+            </label>
+
+            <p>¿Qué suscripción es para mí?
+                <a href="./info.html">
+                <strong>Hacé clic para más información!</strong>
+                </a>
+            </p>
+
+            <button>Suscribirse!!!</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Daily planet no es propiedad registrada de superman &copy; Metrópolis 1932.</p>
+        <p>Hecho por Ago para
+            <a href=""></a>
+        </p>
+    </footer>
 </body>
+
 </html>

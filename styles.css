@@ -40,9 +40,13 @@ header img {
 }
 
 /* navbar */
+ul {
+    text-align: center;
+}
+
 .navList {
     display: inline;
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding: 0.5% 2%;
 }
 
@@ -55,3 +59,93 @@ header img {
     background-color:rgba(0, 128, 128, 0.411);
 }
 
+/* principal */
+.principal {
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+}
+
+/* news */
+main {
+    width: 60%;
+}
+
+main .reporterName {
+    font-family: 'Besley', 'serif';
+}
+
+main .photo {
+    max-width: 800px;
+}
+
+main h2 {
+    font-size: 2.4em;
+}
+
+main .newsContent {
+    display: flex;
+}
+
+main .newsContent p {
+    padding: 0 1%;
+    text-align: justify;
+}
+
+/* aside */
+aside {
+    width: 30%;
+    border-left: 2px solid black;
+}
+
+aside .ads {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+aside img {
+    width: 90%;
+
+}
+
+/* form */
+.suscribe {
+    margin: auto;
+    border-top: 3px solid black;
+    background-color: rgb(211, 211, 211);
+    padding: 2% 0 2% 10%;
+    box-shadow: 2px 2px 2px 1px rgb(99, 99, 99);
+    margin-bottom: 3%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label.userInfo {
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+}
+
+form input, form select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+form label.userType {
+    width: 25%;
+}
+
+form button {
+    width: 20%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px ;
+}
